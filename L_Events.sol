@@ -6,7 +6,7 @@ contract Events {
     // account balance tracker mapping
     mapping(address => uint) public tokenBalances;
     
-    // define event with the values  to be sent to the outside world as arguments
+    // define event with the values to be sent to the outside world as arguments
     event TokensSent(address _from, address _to, uint _amount);
     
     // initialize tokens for contract creator 

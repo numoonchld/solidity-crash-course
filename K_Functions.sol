@@ -47,4 +47,5 @@ contract Functions {
     receive() external payable {
         receiveFunds();
     }
+    
 }
